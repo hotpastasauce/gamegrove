@@ -59,7 +59,7 @@
                 <br><span style="color: white;">ABOUT</span><br><br>
                 <div class="dropdown-content">
                     <a href="#about" class="dropdown-item">About Us</a>
-                    <a href="#" class="dropdown-item">Contact</a>
+                    <a href="#contact" class="dropdown-item">Contact</a>
                 </div>
             </span>
         </span>
@@ -105,7 +105,7 @@
             <!-- IMAGE -->    
             <a href = "#" class = "column col-xs-6" id = "caption">
                 <span class = "text"><h1>Simulation</h1></span>
-                <img src = "sim.jpg"></a>
+                <img src = "sim.gif"></a>
           </div>
         </div>
     </div>
@@ -168,27 +168,58 @@
         </div>
     </div>
 
-    <!-- About Us Section -->
-    <div class="about-us-container" id="about">
-        <center>
+<!-- About Us Section -->
+<div class="about-us-container" id="about" style="position: relative; padding: 40px; background: url('bg4.jpg') no-repeat center/cover; background-size: cover; color: #fff;">
+    <div class="about-us-content" style="display: flex; justify-content: space-between; align-items: center;">
+
+        <!-- Right Column - Text -->
+        <div class="about-us-text" style="flex: 1; max-width: 600px; text-align: left; margin-left: 60%;">
             <h2>About Us</h2>
-        <p>
-            Welcome to GameGrove, your ultimate destination for gaming enthusiasts! 
-            Our mission is to provide a platform that connects gamers from around the world, 
-            offering a diverse range of games and fostering a vibrant gaming community.
-        </p>
-        <p>
-            At GameGrove, we believe in the power of gaming to bring people together, inspire creativity, 
-            and provide endless entertainment. Whether you're into action-packed adventures, immersive 
-            RPGs, or competitive multiplayer experiences, you'll find something exciting in our collection.
-        </p>
-        <p>
-            Join us on this journey, explore the latest games, connect with fellow gamers in our forums, 
-            and stay updated on the gaming world. GameGrove is not just a platform; it's a community where 
-            your gaming passion comes to life.
-        </p>
-        </center>
+            <p>
+                Welcome to GameGrove, your ultimate destination for gaming enthusiasts! 
+                Our mission is to provide a platform that connects gamers from around the world, 
+                offering a diverse range of games and fostering a vibrant gaming community.
+            </p>
+            <p>
+                At GameGrove, we believe in the power of gaming to bring people together, inspire creativity, 
+                and provide endless entertainment. Whether you're into action-packed adventures, immersive 
+                RPGs, or competitive multiplayer experiences, you'll find something exciting in our collection.
+            </p>
+            <p>
+                Join us on this journey, explore the latest games, connect with fellow gamers in our forums, 
+                and stay updated on the gaming world. GameGrove is not just a platform; it's a community where 
+                your gaming passion comes to life.
+            </p>
+        </div>
+
     </div>
+    <div class="blur-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
+    background: url('bg4.jpg') no-repeat center/cover; background-size: cover; filter: blur(10px); 
+    opacity: 0; transition: opacity 1s ease;"></div>
+</div>
+
+
+
+
+
+
+
+    <!-- Contact Section -->
+<div class="contact-container" id="contact" style="padding: 40px; background-color: #0e030e;">
+        <h2 style="color: #fff; font-weight: bolder;">Contact Us</h2>
+        <p style="color: #fff; font-size: 18px;">
+            Have questions, suggestions, or just want to chat? We'd love to hear from you! Feel free to reach out through any of the following channels:
+        </p>
+        <div style="color: #fff; font-size: 18px; margin-top: 20px;">
+            <p>Email: <a href="mailto:info@gamegrove.com" style="color: #fff; text-decoration: underline;">info@gamegrove.com</a></p>
+            <p>Phone: <span style="color: #fff; text-decoration: underline;">[Phone]</span></p>
+            <p>Address: <span style="color: #fff; text-decoration: underline;">[Address]</span></p>
+        </div>
+</div>
+
+
+
+
 
 
     <footer style="background-color: #0e030e8e; color: white; padding: 20px; text-align: center;">

@@ -255,13 +255,36 @@ div.gallery {
 .about-us-container {
     font-family: 'Kanit', sans-serif;
     font-size: 20px;
-    color: #ccc;
+    color: #000000;
+    border-radius: 10px;
+    transition: transform 1s ease;
     background-color: rgb(108, 59, 138);
 }
 
-.about-us-container p {
-    margin: 2%;
-    margin-right: 50%;
+.about-us-container:hover {
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.514);
+    -webkit-filter: contrast(2p);
+    box-shadow: 0 0 50px 20px rgba(255, 255, 255, 0.514);
+    text-shadow: #f8f8f8b3; 
+}
+
+.about-us-container:hover p{
+    color: #000000;
+    background-color: rgb(255, 255, 255, 0.514);
+    -webkit-filter: contrast(2p);
+    font-weight: bolder;
+    box-shadow: 0 0 35px 20px rgba(255, 255, 255, 0.514);
+    text-shadow: rgb(255, 255, 255); 
+}
+
+.blur-overlay {
+    pointer-events: none;
+    z-index: -1; 
+}
+
+.about-us-container:hover .blur-overlay {
+    opacity: 1;
 }
 
 h2, h3 {
